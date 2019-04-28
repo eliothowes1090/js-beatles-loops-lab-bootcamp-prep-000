@@ -22,7 +22,6 @@ function iLoveTheBeatles(num) {
   do {
     array[i] = array[i].concat("I love the Beatles!");
     i++;
-  }
-  while (i < 8);
+  } while (i < 8);
   return array
 };
