@@ -11,7 +11,7 @@ function johnLennonFacts(facts) {
   var i = 0;
   while (i < 3) {
     facts[i] = facts[i].concat("!!!");
-    return facts
     i++;
+    return facts
   }
 };
