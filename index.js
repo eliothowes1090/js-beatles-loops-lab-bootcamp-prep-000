@@ -15,3 +15,14 @@ function johnLennonFacts(facts) {
   }
   return facts
 };
+
+function iLoveTheBeatles(num) {
+  var array = []
+  var i = 0
+  do {
+    array.concat(["I love the Beatles!"]);
+    i++;
+  } 
+  while (i < 8);
+  return array
+};
