@@ -20,8 +20,14 @@ function iLoveTheBeatles(num) {
   var array = []
   var i = 0
   do {
-    array[i].concat("I love the Beatles!");
+    array[i].push("I love the Beatles!");
     i++;
   } while (i < 8);
   return array
 };
+
+let i = 0;
+do {
+  alert( i );
+  i++;
+} while (i < 3);
